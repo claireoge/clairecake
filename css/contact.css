@@ -1,0 +1,65 @@
+*{
+    margin: 0%;  
+    padding: 0%; 
+   }
+   
+   
+   #nav-b{
+       background-color:black;
+   }
+
+
+
+
+
+
+
+   .whatsapp_float {
+    position: fixed;
+    right: 15px; /* Adjust this value to control how far from the left it appears */
+    bottom: 15px; /* Adjust this value to control how far from the bottom it appears */
+    z-index: 100;
+}
+
+.whatsapp_float img {
+    width: 50px; /* Adjust size of the WhatsApp icon */
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   #footer{
+    background-color: black;
+    color: white;
+}
+#footer-d{
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.footer-btn button{
+border: none;
+padding: 10px;
+background-color: red;
+color: white;
+}
+.footer-btn input{
+    border: none;
+    padding: 10px;
+}

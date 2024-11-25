@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-b{
+    background-color:black;
+}
+
+.hero-section{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/my-img/Beef\ egg\ rolls!.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    animation: eggroll 10s infinite;
+    animation-delay: 7s;
+}
+
+@keyframes eggroll {
+    40%{
+        background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/my-img/cake\ roll.jpeg);
+    }
+    70%{
+        background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/my-img/donut1.jpeg);
+    }
+    100%{
+        background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/my-img/finechin.jpg);
+    }
+}
+
+.menu-link a{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+}
+
+.menu{
+    border: 2px solid white;
+    border-radius: 25px 25px;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.menu img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    max-width: 100%;
+}
+.btn1{
+    border: none;
+    padding: 5px 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px 10px;
+    background-color: burlywood;
+}
+.whatsapp_float {
+    position: fixed;
+    right: 15px; /* Adjust this value to control how far from the left it appears */
+    bottom: 15px; /* Adjust this value to control how far from the bottom it appears */
+    z-index: 100;
+}
+
+.whatsapp_float img {
+    width: 50px; /* Adjust size of the WhatsApp icon */
+    height: 50px;
+}
+
+
+/* footer */
+
+#footer{
+    background-color: black;
+    color: white;
+}
+.footer-link a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+#footer-d{
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.footer-btn button{
+border: none;
+padding: 10px;
+background-color: red;
+color: white;
+}
+.footer-btn input{
+    border: none;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    .hero-section {
+        height: 40vh; /* Adjust height for smaller screens */
+    }
+
+    .menu {
+        max-width: 95%; /* Adjust menu width for tablets */
+    }
+
+    .btn1 {
+        padding: 8px 16px;
+    }
+
+    #footer-d {
+        flex-direction: column; /* Stack footer items on smaller screens */
+    }
+    .menu img{
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        height: 30vh; /* Further reduce the height for mobile screens */
+    }
+
+    .btn1 {
+        padding: 5px 10px;
+    }
+
+    .menu {
+        max-width: 100%; /* Menu takes up full width on mobile */
+    }
+
+    #footer-d {
+        flex-direction: column;
+    }
+}

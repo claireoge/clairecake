@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/appointment.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg position-sticky top-0 z-3" id="nav-b">
+        <div class="container">
+            <h2><a class="nav-link text-white" href=""><img src="/my-img/logo.png" height="50px" width="70px" alt=""></a></h2>
+            <button class="navbar-toggler bg-white" data-bs-target="#navdrop" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="navbar-collapse collapse text-center" id="navdrop">
+            <ul class="navbar-nav ms-auto">
+                <li><a class="nav-link text-white" href="/index.html">HOME</a></li>
+                <li><a class="nav-link text-white" href="/about.html">ABOUT</a></li>
+                <li><a class="nav-link text-white"  href="/services.html">OUR SERVICES</a></li>
+                <li><a class="nav-link text-white"  href="/appointment.html">APPOINTMENT</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container"></main>
+        <section class="booking mt-5">
+            <h2>Book an Appointment</h2>
+            <p>Use the form below to book your appointment at Claire cakes. Please ensure all details are correct before submitting.</p>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service</label>
+                    <select id="service" name="service" required>
+                        <option value="haircut">cakes</option>
+                        <option value="coloring">chin-chin</option>
+                        <option value="blowout">Banana bread</option>
+                        <option value="styling">wedding cake</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <hr>
+        <section class="contact-info mt-5">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or need further assistance, please contact us at:</p>
+            <ul>
+                <li>Email: contact@claireoge59@gmail.com</li>
+                <li>Phone: (+234) 8063298628</li>
+                <li>Address: no 26 mbonu ojike street owerri</li>
+            </ul>
+        </section>
+    </main>
+
+    
+    <a href="https://wa.me/+2348063298628" target="_blank" class="whatsapp_float">
+        <img src="/my-img/whatapp icon 2.jpeg" alt="WhatsApp" />
+    </a>
+
+    
+    <footer class=" pt-5" id="footer">
+        <div class="d-sm-flex gap-5 container" id="footer-d">
+            <div>
+                <h3>Products</h3><br>
+                <h6>wedding cake</h6>
+                <h6>small chops</h6>
+                <h6>banana bread</h6>
+                <h6>yummy chin-chin</h6>
+                <h6>all pasteries</h6>
+            </div>
+            <div class="footer-link">
+                <h3>Link</h3> <br>
+                <a href="./index.html">home</a>
+                <a href="./about.html">about</a>
+                <a href="./appointment.html">contact us</a>
+                <a href="./services.html">our services</a>
+            </div>
+            <div>
+                <h3>Address</h3><br>
+                <div>
+                <i class="fas fa-location-arrow"></i>
+                  <span>no 26 mbonu ojike street</span>
+                  </div>
+                  <div>
+                  <i class="fa fa-phone"></i>
+                  <span>07064789930</span>
+                  </div>
+                  <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>claireoge59@gmail.com</span>
+                 </div> 
+            </div>
+            <div class="footer-btn">
+                <h3>Contact Details</h3><br>
+            <input type="text"><button>subscribe</button>   
+            <div>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+            </div> 
+        </div>
+    
+     </footer>
+</body>
+</html>

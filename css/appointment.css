@@ -1,0 +1,98 @@
+#nav-b{
+    background-color:black;
+}
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking, .contact-info {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e3e6e8;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: burlywood;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin: 5px 0;
+}
+.whatsapp_float {
+    position: fixed;
+    right: 15px; /* Adjust this value to control how far from the left it appears */
+    bottom: 15px; /* Adjust this value to control how far from the bottom it appears */
+    z-index: 100;
+}
+
+.whatsapp_float img {
+    width: 50px; /* Adjust size of the WhatsApp icon */
+    height: 50px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+.footer-link a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+#footer-d{
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.footer-btn button{
+border: none;
+padding: 10px;
+background-color: red;
+color: white;
+}
+.footer-btn input{
+    border: none;
+    padding: 10px;
+}
+
